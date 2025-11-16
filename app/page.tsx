@@ -1,8 +1,12 @@
-import Image from "next/image";
 import styles from "./page.module.css";
+import Calc from "../components/Calc";
 
 export default function Home() {
-  return (
-    <div> This is online!</div>
-  );
+	return (
+		<div className={styles.page}>
+			<main className={styles.main}>
+				<Calc />
+			</main>
+		</div>
+	);
 }

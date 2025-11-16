@@ -1,0 +1,15 @@
+.container {
+	width: 100%;
+	color: #8936FF;
+}
+
+.button {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin: 20px 0;
+	background: #8936FF;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
